@@ -13,6 +13,15 @@ const App = () => {
         <AppProvider>
             <div className='container'>
                 <h1 className='mt-3'>Company's Budget Allocation</h1>
+                   <div className='col-sm'>
+                        <label for="currencyDropdown">Select Currency:</label>
+                        <select id="currencyDropdown" class="form-select">
+                            <option value="$">$ Dollar</option>
+                            <option value="£">£ Pound</option>
+                            <option value="₹">₹ Rupee</option>
+                            <option value="€">€ Euro</option>
+                        </select>
+                    </div>
                 <div className='row mt-3'>
                     <div className='col-sm'>
                         <Budget />
