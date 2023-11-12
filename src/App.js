@@ -9,7 +9,7 @@ import AllocationForm from './components/AllocationForm';
 import Remaining from './components/Remaining';
 
 const App = () => {
-    const [selectedCurrency, setSelectedCurrency] = useState('USD'); // Default currency is USD
+    const [selectedCurrency, setSelectedCurrency] = useState('£'); // Default currency is USD
 
     // Function to handle currency change
     const handleCurrencyChange = (e) => {
