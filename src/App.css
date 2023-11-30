@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.dropdown-toggle {
+    background-color:rgb(110, 212, 127) !important;
+    color: white !important;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-menu {
+    background-color: rgb(110, 212, 127) !important;
+    color: black !important;
+  }
+  
+  /* Dropdown Items */
+  .dropdown-item {
+    background-color: rgb(110, 212, 127) !important;
+    color: black !important;
+  }
+  
+  /* Hover effect on Dropdown Items */
+  .dropdown-item:hover {
+    background-color: white !important;
+  }
